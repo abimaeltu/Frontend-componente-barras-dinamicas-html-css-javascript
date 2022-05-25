@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(27, 66%, 92%);
+}
+
+.bg{
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+
+.header{
+    background-color: hsl(10, 79%, 65%);
+    height: 70px;
+    margin: auto;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    display: flex;
+}
+
+.cuerpo{
+    background-color: hsl(33, 100%, 98%);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.izq{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.der{
+    align-items:center;
+    display: flex;
+}
+#c2{
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+    right: 35px;
+    position: absolute;
+}
+#c1{
+    background-color: hsl(25, 47%, 15%);
+    border-radius: 100%;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    right: 20px;
+    position: absolute;
+    display: inline-block;
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+hr{
+    border: 1px solid;
+    border-color: rgb(214, 211, 211);
+}
+/**/
+.pie{
+    margin: 0;
+    display:flex;
+    justify-content: space-around;
+}
+.pizq{
+    float: left;
+}
+
+.pder{
+    float: right;
+    height: 10px;
+}
+
+.text{
+    color: hsl(28, 10%, 53%);
+    float: right;
+    font-size: 14px;
+}
+.prec{
+    font-size: 26px;
+    font-weight: bold;
+    color: hsl(25, 47%, 15%);
+}
+.porc{
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: hsl(25, 47%, 15%);
+    margin-bottom: 2px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+#canvas{
+    background-color:  hsl(33, 100%, 98%);
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .header{
+        max-width: 320px;
+    }
+    .cuerpo{
+        max-width: 320px;
+        height: 400px;
+    }
+    .prec{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 768px) {
+    .header{
+        max-width: 380px;
+    }
+    .cuerpo{
+        max-width:380px;
+        height: 425px;
+    }
+}
+
+

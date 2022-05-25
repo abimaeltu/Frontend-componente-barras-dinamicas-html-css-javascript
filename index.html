@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <style>@import url('https://fonts.googleapis.com/css2? family= DM+Sans:wght@700 & display=swap');</style>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="bg">
+    <div class="header">
+      <div class="izq">
+        My balance
+        <br>
+        <p>$921.48</p>
+      </div>
+      <div class="der">
+        <div id="c1">
+        </div>
+        <div id="c2">
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="cuerpo">
+      <h2>Spending - Last 7 days</h2>
+      <br>
+      
+      <canvas id="canvas"></canvas>
+
+      <br>
+      <hr>
+      <br>
+      <div class="pie">
+        <div class="pizq">
+          <p class="text"> Total this month</p>
+          <p class="prec">$478.33</p>
+        </div>
+        <div class="pder">
+          <p class="porc">+2.4%</p>
+          <br>
+          <p class="text"> from last month </p>        
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Abimael Tirado Uriarte</a>.
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
